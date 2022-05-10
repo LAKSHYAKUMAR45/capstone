@@ -1,0 +1,73 @@
+<style>
+  body {
+  background-color: rgb(25, 26, 25);
+  }
+  .link{
+    padding: 10px;
+  }  
+  .wrapper{
+   position: fixed;
+   align-items: center;
+   justify-content: center;
+   top: 25%;
+   left: 38%;
+   padding: 10px;
+   width: 320px;
+   height: auto;
+   background-color: rgb(30, 81, 40);
+   color: rgb(216, 233, 168);
+   border: solid black;
+   border-radius: 20px;
+  }
+  .email{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;  
+    width: auto; 
+  }
+  .password{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+    width: auto;
+  }
+  .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+    width: auto;
+  }
+  .btn{
+    margin-top: 10px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+  }
+
+</style>
+
+
+<div class="wrapper">
+    
+  <h1>FarmBuddy | Register</h1>
+  <form action="/register" method="POST">
+    <div class="name">
+      <label for="name">Name</label>
+      <input style="width: 250px;" type="text" id="name" name="name" required>
+    </div>
+    <div class="email">
+      <label for="email">Email</label>
+      <input  style="width: 250px;" type="email" id="email" name="email" required>
+    </div>
+    <div class="password">
+      <label for="password">Password</label>
+      <input style="width: 250px;" type="password" id="password" name="password" required>
+    </div>
+    <button class="btn" type="submit">Register</button>
+  </form>
+  <a style="color: rgb(216, 233, 168);" href="/login">Login</a>
+
+</div>

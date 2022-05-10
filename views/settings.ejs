@@ -1,0 +1,42 @@
+<style>
+    body{
+        background-color: rgb(25, 26, 25);
+    }
+    .wrapper{
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        top: 25%;
+        left: 38%;
+        padding: 10px;
+        width: 300px;
+        height: auto;
+        background-color: rgb(30, 81, 40);
+        color: rgb(216, 233, 168);
+        border: solid black;
+        border-radius: 20px;
+    }
+    .btn{
+        margin-top: 10px;
+        padding: 10px;
+        width: 250px;
+        border-radius: 10px;
+    }
+</style>
+
+<script src="/server.js"></script>
+<a style="position: absolute;top: 10%; right: 10%; color:rgb(216, 233, 168) ;" href="/">Home</a>
+    
+    <form class="wrapper" action="/result" method="POST">
+        <h1>User Input</h1>
+        <h4>Please fill out your field data here</h4>
+        <input id="pH" name="pH" type="text" placeholder="pH">  <br><br>
+        <input id="N" name= "N" type="text" placeholder="N"><br><br>
+        <input id="P" name="P" type="text" placeholder="P"> <br><br>
+        <input id="K" name="K" type="text" placeholder="K"> <br><br>
+        <input id="temprature" name="temprature" type="text" placeholder="Temprature"> <br><br>
+        <input id="rainfall" name="rainfall" type="text" placeholder="Rainfall"> <br><br>
+        <input id="humidity" name="humidity" type="text" placeholder="Humidity"> <br><br>
+
+        <button class="btn" id='settingsSubmitButton' type="submit"">Predict Now</button>
+    </form>
