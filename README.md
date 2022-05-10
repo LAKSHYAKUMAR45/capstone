@@ -1,4 +1,4 @@
-**[FarmBuddy - Documentation]{.ul}**
+**[FarmBuddy - Documentation]**
 
 Folder Structure:
 
@@ -222,7 +222,7 @@ Capstone-\|
 -   dataBaseValueSimulator.py: Artificially simulates the values various
     sensors will generate and uploads them to the database.
 
-    **[Views/ login.ejs:]{.ul}**
+    **[Views/ login.ejs:]**
 
     This is a view created using embedded JS which allows us to
     dynamically generate web pages.
@@ -237,7 +237,7 @@ Capstone-\|
 
     Upon logging in the user is redirected to the
 
-    **[Views/ register.ejs:]{.ul}**
+    **[Views/ register.ejs:]**
 
     The CSS styles used for this page is coded using internal CSS. A
     form is created which requires the name, email and password from the
@@ -245,7 +245,7 @@ Capstone-\|
     redirected to the login page. A hyperlink to the login page is
     provided in case the user already has an account.
 
-    **[Views/ settings.ejs]{.ul}**
+    **[Views/ settings.ejs]**
 
     The CSS styles used for this page is coded using internal CSS. A
     form is created which requires the user to input seven factors that
@@ -253,7 +253,7 @@ Capstone-\|
     is made to the flask server and the user is redirected to the
     index.ejs page.
 
-    **[Views/ index.ejs]{.ul}**
+    **[Views/ index.ejs]**
 
     This is the Dashboard of the application. The CSS styles are done
     internally and JS code for firebase is written internally so the
